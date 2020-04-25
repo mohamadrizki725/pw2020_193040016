@@ -17,8 +17,8 @@ $elektronik = query("SELECT * FROM elektronik");
 
     <div class="container">
         <div class="bulat">
-           <h3>DAFTAR HARGA TV ELEKTRONIK</h3>
-         
+            <h3>DAFTAR HARGA TV ELEKTRONIK</h3>
+
             <?php foreach ($elektronik as $tv) : ?>
                 <p class="nama">
                     <a href="php/detail.php?id=<?= $tv['id'] ?>"> <?= $tv["nama"] ?> </a>
@@ -27,7 +27,7 @@ $elektronik = query("SELECT * FROM elektronik");
         </div>
         <div class="list">
         </div>
-       
+
     </div>
 
 </body>

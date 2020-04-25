@@ -13,7 +13,7 @@ $elektronik = query("SELECT * FROM elektronik");
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="../../latihan6a/css/admin.css">
-  
+
 </head>
 
 <body>
