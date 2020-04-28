@@ -19,7 +19,7 @@ if (isset($_POST['cari'])) {
 
 <body>
   <h3>Daftar Mahasiswa</h3>
-  <a href="tambah.php" style="text-decoration: none">Tambah data mahasiswa</a>
+  <a href="tambah.php" style="text-decoration: none ">Tambah data mahasiswa</a>
   <br><br>
 
   <form action="" method="POST">
