@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+  font-family: verdana;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  margin-top: 200px;
+  padding: 50px;
+  background-image: linear-gradient(#1c1d1f,#1b3661,#1c1d1f);
+  width: 350px;
+  border-radius: 50px;
+  padding-bottom: 80px;
+}
+
+button:hover {
+  color: white;
+  background-color: red;
+}
+
+td input {
+  border-radius: 9px;
+}
