@@ -35,7 +35,7 @@ function tambah($data)
 
 	$query = "INSERT INTO elektronik
 									VALUE 
-									('', '$foto', '$nama', '$panel', '$ukuran', '$resolusi','$harga')";
+									(null, '$foto', '$nama', '$panel', '$ukuran', '$resolusi','$harga')";
 
 	mysqli_query($conn, $query);
 
@@ -100,7 +100,7 @@ function registrasi($data)
 
 	// cek username sudah ada atau tidak
 	$result = mysqli_query($conn, "SELECT username FROM user
-																 WHERE username = '$username' ");
+							WHERE username = '$username' ");
 	if (mysqli_fetch_assoc($result)) {
 		echo "<script>
 						alert('Username sudah digunakan!');
@@ -113,7 +113,7 @@ function registrasi($data)
 
 	// tambah user baru
 	$query_tambah = "INSERT INTO user VALUES
-										('','$username','$password')";
+										(null,'$username','$password')";
 	mysqli_query($conn, $query_tambah);
 
 	return mysqli_affected_rows($conn);
