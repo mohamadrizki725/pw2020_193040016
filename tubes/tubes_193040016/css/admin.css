@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(to bottom, #1f1f1f,#1b3661);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+
+.rglogo {
+	margin: auto;
+	width: 100px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.rglogo:hover {
+	width: 105px;
+}
+
+nav {
+	background-color: #1f1f1f;
+}
+
+.tombol-add {
+	background-color: #1b3661;
+}
+
+.tombol-add:hover {
+	background-color: white;
+	color: black;
+}
+
+.tombol-out {
+	background-color: #1b3661;
+}
+
+.tombol-out:hover {
+	background-color: red;
+	color: white;
+}
+
+.section-search {
+  font-size: 15px;
+}
+
+.section-search .container input {
+
+}
+
+.centered {
+	background-color: white;
+	color: black;
+}
+
+
+table {
+	background-color: #1f1f1f;
+	width: 100%;
+}
+
+.tombol-del {
+	background-color: red;
+	margin-bottom: 10px;
+}
+.tombol-del:hover {
+	background-color: red;
+	padding-right: 20px;
+	padding-left: 20px;
+	transition: 0.2s;
+}
+
+.tombol-up {
+	background-color: white;
+	color: black;
+}
+
+.tombol-up:hover {
+	background-color: white;
+	color: black;
+	padding-right: 20px;
+	padding-left: 20px;
+	transition: 0.2s;
+}

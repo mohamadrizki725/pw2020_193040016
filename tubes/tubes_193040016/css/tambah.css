@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(to bottom, #1f1f1f,#1b3661);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 35px;
+}
+
+input {
+  color:white;
+
+}
+
+.tombol-file {
+  background-color: #9E9E9E;
+  color: black;
+}
+
+
+.tombol-file:hover {
+  background-color: #1b3661;
+  color: white;
+}
+
+.tombol-add {
+  background-color: white;
+  color: black;
+}
+
+.tombol-add:hover {
+  background-color: red;
+  color: white;
+}
+
+

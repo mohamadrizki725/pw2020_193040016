@@ -1,0 +1,18 @@
+.card {
+	background-color: #1f1f1f;
+	color: white;
+	padding: 15px;
+
+}
+
+.card-action {
+	text-align: center;
+}
+.card-action .btn-small {
+	background-color: red;
+}
+
+.card-image {
+	height: 200px;
+}
+

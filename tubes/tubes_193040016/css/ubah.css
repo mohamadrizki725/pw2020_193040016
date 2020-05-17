@@ -1,0 +1,64 @@
+body {
+  background-image: linear-gradient(to bottom, #1f1f1f,#1b3661);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 35px;
+}
+
+input {
+  color:white;
+
+}
+
+.input-field:focus {
+  border-bottom: 2px solid white;
+}
+
+input[type=text]:focus {
+  border-bottom: 1px solid white;
+ }
+
+.btn {
+  background-color: white;
+  color: black;
+}
+
+.back:hover {
+  font-weight: bold;
+  background-color: #1b3661;
+  color: white;
+  padding-right: 30px;
+  transition: 0.9s;
+}
+
+.tombol-file {
+  background-color: #9E9E9E;
+  color: black;
+}
+
+
+.tombol-file:hover {
+  background-color: #1b3661;
+  color: white;
+}
+
+.tombol-add:hover {
+  background-color: #1b3661;
+  color: white;
+}
+
+.tombol-ubah:hover {
+  background-color: red;
+  color: white;
+}

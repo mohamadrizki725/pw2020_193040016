@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(to bottom, #1f1f1f,#1b3661);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+
+
+.back-menu {
+  background-color: red;
+}
+
+.back-menu:hover {
+  background-color: #1b3661;
+  padding-right: 50px;
+  padding-left: 50px;
+  transition: 0.5s;
+}
+
+.card {
+  background-color: #1f1f1f;
+}
+
+.tombol-buy {
+  padding-right: 50px;
+  padding-left: 50px;
+  line-height: 50px;
+  height: 50px;
+  background-color: #1b3661;
+}
+
+.tombol-buy:hover {
+  background-color: red;
+}

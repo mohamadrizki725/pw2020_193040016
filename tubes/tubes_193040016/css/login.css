@@ -1,0 +1,42 @@
+body {
+	background-image: linear-gradient(#1f1f1f,#1b3661);
+	height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	
+}
+
+.container {
+	
+	color: white;
+	
+}
+
+img {
+	margin-top: 40px;
+	margin-bottom: 35px;
+	width: 120px;
+}
+
+img:hover {
+	width: 130px;
+	transition: 0.5s;
+	
+}
+
+button:hover {
+	padding-left: 50px;
+	padding-right: 50px;
+	transition: 0.7s;
+} */
+
+.sign-up:hover {
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+.btn-small {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
